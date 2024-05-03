@@ -7,3 +7,5 @@ Install torch cpu: `conda install -y pytorch torchvision torchaudio cpuonly -c p
 Delete conda env: `conda remove -n 360lab3 --all`
 
 Export conda env: `conda env export > environment.yml`
+
+Import conda env: `conda env create -f environment.yml`
