@@ -1,7 +1,7 @@
 # Jupyter Cheatsheet
 
 Expose a Jupyter server within a private network:
-- `conda install -y jupyter`
+- `conda install -y jupyter jupyterlab jupyter_server ipykernel -c conda-forge`
 - `jupyter notebook --generate-config`
 - `vim ~/.jupyter/jupyter_notebook_config.py`
 - - Uncomment `c.NotebookApp.allowed_origin` and set it to `*`
